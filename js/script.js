@@ -10,10 +10,10 @@ function moveSlide(direction) {
     carousel.style.transform = `translateX(${-currentSlide * 100}%)`;
 }
 
-// Slide automático (opcional)
+// Slide automático
 setInterval(() => {
     moveSlide(1);
-}, 6000); // Troca a cada 5 segundos
+}, 6000); // Troca
 
     document.getElementById('search-icon').addEventListener('click', function() {
         var searchBar = document.getElementById('search-bar');
