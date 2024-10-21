@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirate Games</title>
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Cabeçalho com logo e navegação -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+            <img src="img/logo.png" alt="Logo Xbox">
+            </a>
+            <h1 class="title">PIRATE PASS</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <div class="search-container">
+                        <input type="text" id="search-bar" placeholder="Pesquisar..." style="display: none;">
+                        <a href="#" id="search-icon"><img src="img/pesquisar.png" alt="Pesquisar"></a>
+                    </div>
+                </li>
+                <li><a href="#"><img src="img/dispositivos.png" alt="Dispositivos"></a></li>
+                <li class="ultimo-item"><a href="cadastro.html"><img src="img/inscrever.png" alt="Inscrever-se"></a></li>
+            </ul>
+        </nav>               
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Começe nesse mundo de piratas🏴‍☠️</h1>
+            <p>Tenha acesso a vários jogos e se divirta</p>
+            <div class="cta-buttons">
+                <a href="cadastro.html" class="btn-primary">Comece a Jogar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de jogos em destaque -->
+    <section class="featured-games">
+        <h2>Jogos em Destaque🔥</h2>
+        <div class="carousel-container">
+            <button class="prev-btn" onclick="moveSlide(-1)">&#10094;</button>
+            <div class="carousel">
+                <div class="carousel-slide">
+                    <a href="#">
+                        <img src="img/game1.jpg" alt="Jogo 1">
+                    </a>
+                    <h3>Jogo 1</h3>
+                </div>
+                <div class="carousel-slide">
+                    <a href="#">
+                        <img src="img/game2.jpg" alt="Jogo 2">
+                    </a>
+                    <h3>Jogo 2</h3>
+                </div>
+                <div class="carousel-slide">
+                    <a href="#">
+                        <img src="img/game3.jpg" alt="Jogo 3">
+                    </a>
+                    <h3>Jogo 3</h3>
+                </div>
+                <div class="carousel-slide">
+                    <a href="#">
+                        <img src="img/game4.jpg" alt="Jogo 4">
+                    </a>
+                    <h3>Jogo 4</h3>
+                </div>
+            </div>
+            <button class="next-btn" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Pirate Games.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
