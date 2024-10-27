@@ -36,7 +36,7 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Seção de boas vindas do site -->
     <section class="hero">
         <div class="hero-content">
             <h1>Começe nesse mundo de piratas🏴‍☠️</h1>
@@ -50,9 +50,10 @@
     <!-- Seção de jogos em destaque -->
     <section class="featured-games">
         <h2>Jogos com maior avaliação⭐</h2>
+        <img src="img/leme.png" alt="Leme de Barco" class="carrossel-leme" id="carrossel-leme" > <!-- Leme -->
         <div class="carousel-container">
-            <button class="prev-btn" onclick="moveSlide(-1)">&#10094;</button>
-            <div class="carousel">
+            <button class="prev-btn" onclick="moveSlide(-1)">&#10094;</button> <!-- Botão para esquerda/ Passa o numero negativo para a função de girar o carrossel -->
+            <div class="carousel"> <!-- Carrossel -->
                 <div class="carousel-slide">
                     <a href="#">
                         <img src="img/game1.jpg" alt="Jogo 1">
@@ -78,8 +79,9 @@
                     <h3>Jogo 4</h3>
                 </div>
             </div>
-            <button class="next-btn" onclick="moveSlide(1)">&#10095;</button>
+            <button class="next-btn" onclick="moveSlide(1)">&#10095;</button> <!-- Botão para direita/ Passa o numero positivo para a função de girar o carrossel -->
         </div>
+        <!-- Gêneros -->
         <div class="generos">
             <a href="#"><img src="img/genero-map.png" alt="Aventura"></a>
             <a href="#"><img src="img/genero-acao.png" alt="Ação"></a>
@@ -88,30 +90,26 @@
             <a href="#"><img src="img/genero-online.png" alt="Jogos Onlines"></a>
         </div>
     </section>
-
+    <!-- Seção com "TODOS OS JOGOS" -->
     <section class="all-games">
         <h2>Todos os Jogos</h2>
         <div class="games-grid">
             <div class="game-item">
                 <img src="img/game1.jpg" alt="Jogo 1">
-                <p>Jogo 1</p>
             </div>
             <div class="game-item">
                 <img src="img/game2.jpg" alt="Jogo 2">
-                <p>Jogo 2</p>
             </div>
             <div class="game-item">
                 <img src="img/game3.jpg" alt="Jogo 3">
-                <p>Jogo 3</p>
-                <!-- Você pode adicionar quantos jogos precisar! -->
             </div>
             <div class="game-item">
                 <img src="img/game4.jpg" alt="Jogo 4">
-                <p>Jogo 4</p>
+            </div>
             </div>
     </section>
 
-
+<!-- Rodapé -->
     <footer>
         <p>&copy; 2024 Pirate Games.</p>
     </footer>
