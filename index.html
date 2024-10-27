@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- Cabeçalho com logo e navegação -->
     <header>
         <div class="logo">
             <a href="index.html">
-            <img src="img/logo.png" alt="Logo Xbox">
+                <img src="img/logo.png" alt="Logo Xbox">
             </a>
             <h1 class="title">PIRATE PASS</h1>
         </div>
@@ -28,9 +30,10 @@
                     </div>
                 </li>
                 <li><a href="#"><img src="img/dispositivos.png" alt="Dispositivos"></a></li>
-                <li class="ultimo-item"><a href="cadastro.html"><img src="img/inscrever.png" alt="Inscrever-se"></a></li>
+                <li class="ultimo-item"><a href="cadastro.html"><img src="img/inscrever.png" alt="Inscrever-se"></a>
+                </li>
             </ul>
-        </nav>               
+        </nav>
     </header>
 
     <!-- Hero Section -->
@@ -77,8 +80,37 @@
             </div>
             <button class="next-btn" onclick="moveSlide(1)">&#10095;</button>
         </div>
+        <div class="generos">
+            <a href="#"><img src="img/genero-map.png" alt="Aventura"></a>
+            <a href="#"><img src="img/genero-acao.png" alt="Ação"></a>
+            <a href="#"><img src="img/genero-rpg.png" alt="RPG"></a>
+            <a href="#"><img src="img/genero-pirata.png" alt="Pirata"></a>
+            <a href="#"><img src="img/genero-online.png" alt="Jogos Onlines"></a>
+        </div>
     </section>
-    
+
+    <section class="all-games">
+        <h2>Todos os Jogos</h2>
+        <div class="games-grid">
+            <div class="game-item">
+                <img src="img/game1.jpg" alt="Jogo 1">
+                <p>Jogo 1</p>
+            </div>
+            <div class="game-item">
+                <img src="img/game2.jpg" alt="Jogo 2">
+                <p>Jogo 2</p>
+            </div>
+            <div class="game-item">
+                <img src="img/game3.jpg" alt="Jogo 3">
+                <p>Jogo 3</p>
+                <!-- Você pode adicionar quantos jogos precisar! -->
+            </div>
+            <div class="game-item">
+                <img src="img/game4.jpg" alt="Jogo 4">
+                <p>Jogo 4</p>
+            </div>
+    </section>
+
 
     <footer>
         <p>&copy; 2024 Pirate Games.</p>
@@ -86,4 +118,5 @@
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
