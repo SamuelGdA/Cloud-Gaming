@@ -205,11 +205,13 @@ nav ul li a img {
     justify-content: center; /* Centraliza horizontalmente os itens */
     margin-top: 40px; /* Espaço acima da seção */
     gap: 20px; /* Espaço entre os itens */
+    flex-wrap: wrap; /* Permite que os itens movam para uma nova linha em telas menores */
 }
 
 .generos img {
-    width: 300px; /* Ajusta para o tamanho desejado da imagem */
+    width: 300px; /* Tamanho padrão das imagens em telas grandes */
     border-radius: 50px; /* Cantos arredondados das imagens */
+    transition: width 0.3s ease; /* Transição suave para a alteração do tamanho */
 }
 
 .all-games {
@@ -234,7 +236,6 @@ nav ul li a img {
 
 .game-item {
     border-radius: 10px; /* Cantos arredondados dos itens de jogo */
-    padding: 15px; /* Preenchimento interno dos itens de jogo */
     max-width: 300px; /* Limite o tamanho do item do jogo */
     text-align: center; /* Centraliza o texto dentro do item */
 }
