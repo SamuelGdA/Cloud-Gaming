@@ -16,7 +16,7 @@ header {
     align-items: center; /*Alinha verticalmente os itens */
     background: linear-gradient(to top, #251202, #351903 120%);
     height: 60px; /* Altura fixa */
-    border-bottom: 2px solid brown; /* Borda inferior do cabeçalho */
+    border-bottom: 2px solid #3f301d; /* Borda inferior do cabeçalho */
 }
 
 header .logo {
@@ -30,6 +30,12 @@ header .title {
     font-family: 'Pirata One'; /* Fonte específica para o título */
     text-align: center; /* Centraliza o texto do título */
     letter-spacing: 4px; /* Espaçamento entre letras */
+    cursor: default;
+    transition: 1s;
+}
+header .title:hover {
+    color: yellow;
+    text-shadow: 0 0 9px yellow;
 }
 
 header .logo img {
@@ -80,7 +86,7 @@ nav ul li a img {
     background-position: center; /* Centraliza a imagem de fundo */
     padding: 30px 0; /* Preenchimento na seção */
     text-align: center; /* Centraliza o texto da seção */
-    border-bottom: 3px solid brown; /* Borda inferior da seção */
+    border-bottom: 3px solid #3f301d; /* Borda inferior da seção */
 }
 
 .hero h1 {
@@ -126,7 +132,7 @@ nav ul li a img {
 .featured-games {
     padding: 10px 0; /* Preenchimento na seção de jogos em destaque */
     text-align: center; /* Centraliza o texto na seção */
-    background: linear-gradient(to top, #0077be, #ffffff 200%); /* Fundo em gradiente */
+    background: linear-gradient(#0077b6, #03045e); /* Fundo em gradiente */
 }
 
 .featured-games h2 {
@@ -204,7 +210,7 @@ nav ul li a img {
     display: flex; /* Utiliza flexbox para a seção de gêneros */
     justify-content: center; /* Centraliza horizontalmente os itens */
     margin-top: 40px; /* Espaço acima da seção */
-    gap: 20px; /* Espaço entre os itens */
+    gap: 10px; /* Espaço entre os itens */
     flex-wrap: wrap; /* Permite que os itens movam para uma nova linha em telas menores */
 }
 
@@ -217,7 +223,7 @@ nav ul li a img {
 .all-games {
     margin-top: 0px; /* Espaçamento acima da seção de todos os jogos */
     text-align: center; /* Centraliza o texto na seção */
-    background-color: #0077be; /* Cor de fundo da seção */
+    background-color: #03045e; /* Cor de fundo da seção */
     padding: 20px; /* Adiciona um pouco de padding */
 }
 
